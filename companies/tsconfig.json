@@ -1,0 +1,24 @@
+{
+	"compilerOptions": {
+		"module": "commonjs",
+		"moduleResolution": "node",
+		"target": "es2017",
+		"types" : [ "node" ],
+		"typeRoots": [
+    	"node_modules/@types"
+    ],
+		"outDir": "dist/",
+		"rootDir": "src/"
+	},
+  "include": [
+      "src/**/*"
+  ],
+  "exclude": [
+      "node_modules",
+      "**/*.spec.ts"
+  ],
+	"typeRoots": [
+		"@typesCustom",
+		"node_modules/@types"
+	]
+}
